@@ -1,5 +1,37 @@
-.main img {
-    
-    height: 200px;
-    width: 400px;
+#camp {
+   text-align: center;
+}
+
+#camp img {
+    height: 300px;
+   width: 420px;
+   outline: auto;
+   outline-color: aliceblue;
+}
+
+#discover {
+    text-align: center;
+    line-height: 0%;
+}
+
+#download {
+    text-align: center;
+    line-height: 0%;
+}
+
+#download h6 a {
+    color: aqua;
+}
+#phone {
+    text-align: center;
+}
+
+.excursion {
+    text-align: center;
+    line-height: 0%;
+}
+
+body {
+    color: aliceblue;
+    background-color: black;
 }
