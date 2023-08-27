@@ -4,9 +4,9 @@
 
 #camp img {
     height: 300px;
-   width: 420px;
-   outline: auto;
-   outline-color: aliceblue;
+    width: 520px;
+    outline: auto;
+    outline-color: aliceblue;
 }
 
 #discover {
@@ -16,10 +16,10 @@
 
 #download {
     text-align: center;
-    line-height: 0%;
+    line-height: 50%;
 }
 
-#download h6 a {
+#download h5 a {
     color: aqua;
 }
 #phone {
@@ -33,5 +33,54 @@
 
 body {
     color: aliceblue;
-    background-color: black;
+    
 }
+
+#smallphone {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#smallphone h5 a {
+    color: aqua;
+    line-height: 0%;
+}
+
+#smallphone h3 {
+    line-height: 0%;
+}
+
+footer {
+    border: 1px solid black;
+    background-color: black;
+    padding: 25px;
+    padding-right: 1236px;
+    left: -8px;
+    bottom: -9px;
+    position: relative;
+    z-index: 10;
+}
+
+footer h5 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+}
+
+.space {
+    height: 5vh;
+  }
+  
+  .space .image-container {
+    position: absolute;
+    left: 0px;
+    
+    top: 0px;
+    z-index: -1;
+  }
+  
+  .space .image-container img {
+    height: 1500px;
+    width: 1263px;
+  }
